@@ -9,11 +9,11 @@ class McpBash < Formula
   depends_on "jq"
 
   def install
-    prefix.install Dir["*"]
-    bin.install_symlink prefix/"bin/mcp-bash"
+    libexec.install Dir["*"]
+    bin.install_symlink libexec/"bin/mcp-bash"
   end
 
   test do
-    system bin/"mcp-bash", "--version"
+    assert_match version.to_s, shell_output("#{bin}/mcp-bash --version")
   end
 end
