@@ -1,8 +1,8 @@
 class McpBash < Formula
   desc "MCP server framework for Bash"
   homepage "https://github.com/yaniv-golan/mcp-bash-framework"
-  url "https://github.com/yaniv-golan/mcp-bash-framework/releases/download/v1.9.0/mcp-bash-v1.9.0.tar.gz"
-  sha256 "3c5ab01086b7bf6b1c6f12c14d66d2056a8ccd34b41f0d72979e8a7973ea01a4"
+  url "https://github.com/yaniv-golan/mcp-bash-framework/releases/download/v1.9.1/mcp-bash-v1.9.1.tar.gz"
+  sha256 "3574b5ab0c75302e538e33d16fb38b302fdc2274d09b04889ff8b1486815e896"
   license "MIT"
 
   depends_on "bash"
